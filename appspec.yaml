@@ -3,7 +3,7 @@ Resources:
   - TargetService:
       Type: AWS::ECS::Service
       Properties:
-        TaskDefinition: "arn:aws:ecs:ap-south-1:590184124026:task-definition/swiggy:1"
+        TaskDefinition: "arn:aws:ecs:ap-south-1:992382434579:task-definition/swiggy-task-1:1"
         LoadBalancerInfo:
-          ContainerName: "swiggy"
+          ContainerName: "swiggy-project-1"
           ContainerPort: 3000
